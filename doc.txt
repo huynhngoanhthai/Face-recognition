@@ -1,0 +1,7 @@
+
+
+Bộ lọc làm mờ trung vị (Median Filter)
+Trung vị (median) là ta lấy ra giá trị trung vị sau khi sắp thứ tự dãy số. Ví dụ: median([6, 8, 11, 4, 1]) = 6. Giải: sau khi sắp thứ tự dãy [6, 8, 11, 4, 1], ta được [1, 4, 6, 8, 11] => số ở giữa dãy đã sắp thứ tự là 6.
+Rất hiệu quả với nhiễu muối tiêu (tức nhiễu các hạt nhỏ trong ảnh).
+Trong OpenCV, tham số cho bộ lọc trung vị chỉ có KERNEL_SIZE (không cho đặc tả Width / Height) và phải là số lẻ.
+median_blur.py
